@@ -3,9 +3,17 @@ open-replicator
 
 Open Replicator is a high performance MySQL binlog parser written in Java. It unfolds the possibilities that you can parse, filter and broadcast the binlog events in a real time manner.
 
+java程序解析mysql二进制binlog文件.
+
+
+
 ### note
 
 For MySQL 5.6.6 users, binlog_checksum system variable is NOT supported by open-replicator at the moment, please set it to NONE.
+
+对于MySQL 5.6用户，当前打开复制器不支持BiLogLogCusiSoM系统变量，请将其设置为无.
+
+MySQL 5.7x的binlog文件有点变化，还在修复中.
 
 ### releases
 1.0.7
