@@ -1,5 +1,6 @@
 open-replicator
 ===============
+Forked from whitesock/open-replicator
 
 Open Replicator is a high performance MySQL binlog parser written in Java. It unfolds the possibilities that you can parse, filter and broadcast the binlog events in a real time manner.
 
